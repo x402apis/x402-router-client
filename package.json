@@ -49,7 +49,7 @@
   "dependencies": {
     "@solana/spl-token": "^0.4.14",
     "@solana/web3.js": "^1.87.0",
-    "@x402apis/protocol": "^1.0.2",
+    "@x402apis/protocol": "^1.0.3",
     "commander": "^11.1.0",
     "inquirer": "^8.2.5",
     "node-fetch": "^2.7.0",
