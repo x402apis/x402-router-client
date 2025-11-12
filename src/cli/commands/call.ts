@@ -38,7 +38,6 @@ export async function callCommand(
         // 3. Initialize the X402Router with the signer object
         const router = new X402Router({
             signer: signer, // Pass the signer object
-            registry: 'http://localhost:3000/api', // Using your specified registry
             chain: config.defaultChain,
             logging: true,
         });

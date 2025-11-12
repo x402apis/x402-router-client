@@ -46,7 +46,7 @@ export async function initCommand(options: { chain?: Chain } = {}): Promise<void
             [chain]: walletPath,
         },
         defaultChain: chain,
-        registry: 'https://registry.x402apis.io',
+        registry: 'https://x402apis.io/api',
         autoFund: {
             enabled: false,
             provider: 'solana',

@@ -32,7 +32,7 @@ export class X402Router {
         this.signer = config.signer;
 
         this.config = {
-            registry: config.registry || 'http://localhost:3000/api' || DEFAULT_REGISTRY_URL,
+            registry: config.registry || DEFAULT_REGISTRY_URL,
             chain: config.chain || 'solana',
             rpcEndpoint: config.rpcEndpoint || 'https://api.mainnet-beta.solana.com',
             logging: config.logging ?? true,
